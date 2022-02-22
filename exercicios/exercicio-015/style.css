@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+h1{color: yellow; text-align: center; font-size: 40px; font-family: Consolas;}
+h2{color: whitesmoke; text-align: center; font-family: Consolas;}
+body{background-color: blueviolet;}
+p{color: white; text-align: center; font-size: 20px; font-family: Consolas;}
+a{color: yellow;}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+
+        body
+        {
+            font-family: Consolas;
+        }
+
+        td
+        {
+            border: 1px solid black;
+            text-align: center; /*Alinhamento Horizontal*/
+            vertical-align:bottom; /*Alinhamento Vertical*/
+        }
+
+        table
+        {
+            border-collapse: collapse;
+            width: 400px;
+            height: 400px;
+        }
+
+        .primeira
+        {
+            background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!--
+
+        HIERARQUIA DE TABELAS (Simples):
+
+        Table - Tabela
+            Table Row - Linha de tabela
+                Table Header - Cabeçalho de tabela
+                    Table Data - Dado de tabela
+
+
+
+    -->
+
+    <h1>Minha primeira Tabela</h1>
+    <table>
+        <tr class="primeira"> <!--Primeira Linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="primeira"> <!--Segunda Linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="primeira"> <!--Terceira Linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr class="primeira"> <!--Quarta Linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+
+</body>
+</html>

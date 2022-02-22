@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/IDroid.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'idroid-b';
+    src: url('fontes/IDroid\ Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'idroid-i';
+    src: url('fontes/IDroid\ Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'idroid-bi';
+    src: url('fontes/IDroid\ Bold\ Italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'rounded';
+    src: url('fontes/MPLUSRounded1c-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'rounded-b';
+    src: url('fontes/MPLUSRounded1c-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'rounded=leve';
+    src: url('fontes/MPLUSRounded1c-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'rounded-media';
+    src: url('fontes/MPLUSRounded1c-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'rounded-thin';
+    src: url('fontes/MPLUSRounded1c-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'rounded-eb';
+    src: url('fontes/MPLUSRounded1c-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'rounded-black';
+    src: url('fontes/MPLUSRounded1c-Black.ttf') format('truetype');
+}
+
+header
+{
+    background-image: linear-gradient(to bottom, #3BD27F, #30AB67, #288B54 ,#1A5C38);
+    height: 190px;
+    color: white;
+    box-shadow: 0px 3px 10px #33313196;
+}
+
+body
+{
+    margin: 0;
+    background-color: #E8E5C2;
+}
+
+h1#principal
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 25px;
+    font-family: rounded-thin;
+    text-transform: uppercase;
+}
+
+#inicial
+{
+    font-family: rounded;
+    text-align: center;
+    color: white;
+}
+
+#navbar
+{
+    float: left;
+    font-family: rounded-b;
+}
+
+#navbar a
+{
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    
+}
+
+#navbar a:hover
+{
+    background-color: #229757;
+    transition: 450ms;
+}
+
+#titulo-mascote
+{
+    font-family: idroid;
+    color:#1A5C38;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px;
+    font-size: 30px;
+
+}
+
+.para
+{
+    text-indent: 20px;
+    padding: 15px;
+    font-family: rounded;
+}
+
+p#p-1
+{
+    text-indent: 20px;
+    padding: 15px;
+    font-family: rounded;
+}
+
+.titulo-idroid
+{
+    font-size: 23px;
+    margin-left: 15px;
+    padding-left: 7px;
+    font-family: idroid;
+    color: #0B5D2F;
+    background-image: linear-gradient(to right,#8ad8ac, #cff3de, #fff);
+}
+
+#tentativa
+{
+    text-indent: 20px;
+    padding: 15px;
+    font-family: rounded;
+}
+
+.link-1
+{
+    background-color:#8ad8ac;
+    color: #0B5D2F;
+    font-family: rounded-b;
+    padding: 0 2px 0 2px;
+    text-decoration: none;
+}
+
+.link-1:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-img
+{
+    margin-left: 10%;
+    margin-right: 10%px;
+}
+
+#historia-mascote
+{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 3px 10px #33313196;
+    border-radius: 0 0 10px 10px;
+}
+
+.dan
+{
+    color: #0B5D2F;
+    font-family: rounded-b;
+}
+
+#Irina
+{
+    width: 97%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#bugdroid
+{
+    margin-left: 35%;
+    margin-right: 30%;
+}
+
+#video-android
+{
+    background-color: #1A5C38;
+}
+
+#video
+{
+    margin-left: 30px;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+}
+
+#mais
+{
+    margin-top: 0;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#quest
+{
+margin-top: 0;
+background-color: #cff3de;
+border-radius: 10px 10px 10px 10px;
+}
+
+/*Título*/
+
+#quer
+{
+    color: white;
+    background-color:#2FA865;
+    font-family: rounded;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+    text-indent: 5px;
+}
+
+#quest p
+{
+    margin: 0;
+}
+
+/*Listas*/
+
+#bloco
+{
+    width: 100%;
+}
+
+#bloco ul
+{
+    display: inline-block;
+}
+
+#lista-1
+{
+    width: 205px;
+}
+
+#lista-2
+{
+    width:140px;
+}
+
+#lista-1 li
+{
+    margin-left: 15px;
+}
+
+.lista
+{
+    list-style: none;
+}
+
+.lista li:hover
+{
+    cursor: pointer;
+}
+
+#lista-2
+{
+    float: right;
+    margin-right: 150px;
+}
+
+#lista-1
+{
+    padding: 0;
+}
+
+.trecho
+{
+    border-bottom: 3px dotted rgb(92, 90, 90);
+}
+
+#finalmente
+{
+    text-align: center;
+    color: white;
+    font-family: rounded;
+    background-color: #1A5C38;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}

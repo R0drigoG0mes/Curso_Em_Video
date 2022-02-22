@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+
+ p{
+     font-family: "Consolas";
+    text-align: justify;
+
+  }
+
+  h1
+  {
+    font-family: "Consolas";
+    text-align: center;
+    color: #413D3B;
+    text-shadow: 1px 1px 3px #2b2827c2;
+  }
+
+  h2
+  {
+    font-family: Verdana;
+    color:#591C17;
+  }
+
+
+
+  body
+  {
+      background-attachment: fixed;
+    background-image: linear-gradient(to top, #FB581C,#FE7E33,#cc5b19);
+  }
+
+  main
+  {
+      background-color: white;
+      width: 700px;
+      padding: 13px;
+      margin: auto;
+      border-radius: 20px;
+      box-shadow: 5px 5px 15px #413d3bbb;
+
+  }

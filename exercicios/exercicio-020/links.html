@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+
+        body
+        {
+            font-family: Consolas,sans-serif;
+        }
+
+        a
+        {
+            color: darkcyan;
+            text-decoration: none;
+        }
+
+        a:visited
+        {
+            color: rgb(103, 219, 219);
+        }
+
+        a:hover
+        {
+            text-decoration: underline;
+        }
+
+        ul li::after
+        {
+            content: '';
+            color: darkgreen;
+            width: 5px;
+            height: 5px;
+            border: 2px solid greenyellow;
+            border-radius: 50%;
+            position: absolute;
+            margin-right: 10px;
+        }
+
+        ul
+        {
+            outline: 2px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="https://store.steampowered.com/?l=portuguese" target="_blank">Repositório do GitHub</a></li>
+        <li><a href="https://youtube.com" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://cursoemvideo.com" target="_blank">Site do Curso em Vídeo</a></li>
+    </ul>
+
+
+</body>
+</html>

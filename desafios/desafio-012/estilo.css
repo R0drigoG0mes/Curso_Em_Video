@@ -1,0 +1,135 @@
+@charset 'Utf-8';
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url('fontes/Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Passion-One-Black';
+    src: url('fontes/Passion-One/PassionOne-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Passion-One-Bold';
+    src: url('fontes/Passion-One/PassionOne-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Passion-One';
+    src: url('fontes/Passion-One/PassionOne-Regular.ttf') format('truetype');
+}
+
+:root
+{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte03: Sriracha;
+    --fonte02-Black: Passion-One-Black;
+    --fonte02-Bold: Passion-One-Bold;
+    --fonte02: Passion-One;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte01);
+}
+
+header
+{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+header > h1
+{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 10vw;
+}
+
+header > p
+{
+    padding-bottom: 50px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+section
+{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte03);
+    font-size: 3.3vw;
+}
+
+section > p
+{
+    padding-bottom: 2em;
+}
+
+.normal
+{
+    background-color: white;
+    color: black;
+}
+
+.imagem
+{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    background-attachment: fixed;
+}
+
+.imagem > p
+{
+    background-color: rgba(0, 0, 0, 0.555);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01
+{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+#img02
+{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+footer
+{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+

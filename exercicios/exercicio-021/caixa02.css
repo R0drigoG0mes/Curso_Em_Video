@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+nav a
+{
+    margin-right: 10px;
+}
+
+nav
+{
+    margin: auto;
+    display: inline;
+}
+
+body
+{
+    font-family: Consolas;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: white;
+    margin: 0%;
+}
+
+p
+{
+    font-size: 1.2em;
+    text-indent: 5px;
+    padding: 0 5px 0 5px;
+    color: black;
+    background-color: white;
+    text-align: left;
+    
+}
+
+aside:hover
+{
+    background-color: #5780a0;
+    border-radius: 3px;
+    transition: 1s;
+
+}
+
+aside
+{
+    font-weight: bolder;
+    display: inline;
+    padding: 5px;
+}
+
+nav > a
+{
+    font-family: Verdana;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav > a:hover
+{
+    border: 2.5px solid #6b8cce;
+    border-radius: 4px;
+    background-color: white;
+    color: #6b8cce;
+    transition: 100ms;
+    text-shadow: none;
+
+}
+
+nav
+{
+    display: inline;
+    float: right;
+    margin-right: 14%;
+    margin-top: 20px;
+}
+
+h2
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+
+header
+{
+    background-color: gainsboro;
+    height: 80px;
+    border-bottom: 2px solid white;
+    background-image: url("https://data.whicdn.com/images/231557800/original.gif");
+    
+}
+
+input
+{
+    display: inline;
+    float: right;
+    font-family: Consolas;
+    background-color: transparent;
+    margin-top: 25px;
+    margin-right: 2%;
+    color: black;
+    font-style: italic;
+    border-radius: 4px;
+    outline: 2px solid transparent;
+    padding: 3px;
+    background-image: url("https://icons.iconarchive.com/icons/paomedia/small-n-flat/128/search-icon.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 135px;
+    background-position-y: 0.5px;
+    border-style: solid;
+    border-color: white;
+}
+
+input:hover
+{
+    cursor: pointer;
+    background-color: white;
+    border-color: #6b8cce;
+}
+
+input:focus
+{
+    background-color: white;
+    transition: 50ms;
+    border-color: #6b8cce;
+}
+
+footer
+{
+    background-color: transparent;
+}
+
+#logo
+{
+    width: 70px;
+    height: 70px;
+    margin-left: 1%;
+    margin-top: 5px;
+}
+
+#logos
+{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 45px;
+    color: #AFE9DD;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 1px white;
+
+}
+

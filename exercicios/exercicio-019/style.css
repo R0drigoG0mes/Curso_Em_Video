@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body
+{
+
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    font-family: Consolas;
+    color: white;
+
+
+}
+
+p
+{
+
+    font-size: 20px;
+
+}
+
+h1
+{
+    color: #b69af7;
+}
+
+
+
+#principal
+{
+    color: #98ceec;
+}
+
+.basico
+{
+color: greenyellow;
+}
+
+.intermediario
+{
+color: yellow;
+}
+
+.avançado
+{
+color:red ;
+}

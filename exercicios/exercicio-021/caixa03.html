@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        body
+        {
+            background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-family: Consolas;
+            background-attachment: fixed;
+            margin: 0;
+        }
+
+        h1
+        {
+            border: 20px solid black;
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 20;
+            border-image-repeat: repeat;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Teste de Borda</h1>
+
+</body>
+</html>
